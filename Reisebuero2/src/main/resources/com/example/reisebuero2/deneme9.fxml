@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: linear-gradient(to right top, #5c6461, #616866, #656d6b, #6a7170, #6f7675);" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="166.0" layoutY="25.0" prefHeight="59.0" prefWidth="68.0" text="DENEME!" />
+      <TextField layoutX="81.0" layoutY="95.0" />
+      <TextField layoutX="114.0" layoutY="179.0" />
+      <TextField layoutX="38.0" layoutY="271.0" />
+      <TextField layoutX="166.0" layoutY="350.0" />
+   </children>
+</AnchorPane>

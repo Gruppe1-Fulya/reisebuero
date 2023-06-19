@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: linear-gradient(to right top, #5c6461, #616866, #656d6b, #6a7170, #6f7675);;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reisebuero2.SecondController">
+   <children>
+      <Label alignment="TOP_CENTER" layoutX="90.0" layoutY="21.0" text="ANMELDUNG">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="sendButton" layoutX="312.0" layoutY="449.0" mnemonicParsing="false" onMouseClicked="#actions" onMouseEntered="#handleMouseEntered" onMouseExited="#handleMouseExited" style="-fx-background-color: linear-gradient(to right top, #27b982, #1ca87f, #1a977b, #208774, #27766b); -fx-background-radius: 10;" text="Senden">
+         <effect>
+            <DropShadow />
+         </effect></Button>
+      <TextField fx:id="vornameField" layoutX="108.0" layoutY="117.0" prefHeight="27.0" prefWidth="185.0" promptText="Max" style="-fx-background-radius: 30;" />
+      <TextField fx:id="nachnameField" layoutX="108.0" layoutY="191.0" prefHeight="27.0" prefWidth="185.0" promptText="Mustermann" style="-fx-background-radius: 20;" />
+      <TextField fx:id="mailField" layoutX="108.0" layoutY="268.0" prefHeight="27.0" prefWidth="185.0" promptText="example@gmail.com" style="-fx-background-radius: 20;" />
+      <TextField fx:id="nummerField" layoutX="108.0" layoutY="345.0" prefHeight="27.0" prefWidth="185.0" promptText="(530) 555 55 55" style="-fx-background-radius: 20;" />
+      <Label layoutX="112.0" layoutY="99.0" text="Vorname*" AnchorPane.leftAnchor="112.0" />
+      <Label layoutX="110.0" layoutY="173.0" text="Nachname*" AnchorPane.leftAnchor="112.0" />
+      <Label layoutX="108.0" layoutY="327.0" text="Nummer*" AnchorPane.leftAnchor="112.0" />
+      <Label layoutX="108.0" layoutY="250.0" text="E-Mail*" AnchorPane.leftAnchor="112.0" />
+   </children>
+</AnchorPane>
